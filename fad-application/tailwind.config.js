@@ -107,7 +107,7 @@ module.exports = {
         "accordion-up": "accordion-up 0.2s ease-out",
       },
       fontFamily: {
-        "roboto" : ["Roboto"],
+        "body" : ["Roboto"],
         "ebgaramond" : ["EB Garamond"]
       }
     },

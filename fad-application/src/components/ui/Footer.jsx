@@ -7,7 +7,7 @@ import phone from './assets/Phone.png'
 export default function Footer(){
     return(
         <>
-            <div className="w-full h-80 xl:h-96 relative font-roboto">
+            <div className="w-full h-80 xl:h-96 relative font-body font-[500]">
                 <img src={foot} className='w-full object-cover h-full'></img>
                 <div className='text-white py-3 px-6 absolute left-0 top-0 flex flex-col space-y-1'>
                     <span className='text-4xl xl:text-5xl'>CONNECT<br/>WITH US</span>

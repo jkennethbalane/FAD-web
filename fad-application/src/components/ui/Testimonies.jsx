@@ -93,7 +93,7 @@ function Testimonies() {
             </div>
             <div className='flex xl:flex-row xl:space-y-0 space-y-6 py-6 justify-between flex-col'>
                 <Card className="flex justify-center ">
-                    <CardContent className="flex flex-col bg-[url('src/components/ui/assets/indayog.png')] bg-cover aspect-square h-80 transition duration-300 transform hover:scale-105 rounded-xl p-0">
+                    <CardContent className="flex flex-col bg-[url('/src/components/ui/assets/indayog.png')] bg-cover aspect-square h-80 transition duration-300 transform hover:scale-105 rounded-xl p-0">
                         <div className="flex flex-col justify-end h-full w-full">
                             <div className='px-6 py-2 bg-[#841E1C]/[.8] rounded-b-xl flex flex-col h-1/3 justify-center'>
                                 <span className='font-ebgaramond text-xl'>PINAKA-KAVOUGE NA BOOTH-TUP INDAYOG 2023</span>
@@ -103,7 +103,7 @@ function Testimonies() {
                     </CardContent>
                 </Card>
                 <Card className="flex justify-center">
-                    <CardContent className="flex flex-col bg-[url('src/components/ui/assets/LunetaArt.png')] bg-cover aspect-square h-80 transition duration-300 transform hover:scale-105 rounded-xl p-0">
+                    <CardContent className="flex flex-col bg-[url('/src/components/ui/assets/LunetaArt.png')] bg-cover aspect-square h-80 transition duration-300 transform hover:scale-105 rounded-xl p-0">
                         <div className="flex flex-col justify-end h-full w-full">
                             <div className='px-6 py-2 bg-[#841E1C]/[.8] rounded-b-xl flex flex-col h-1/3 justify-center'>
                                 <span className='font-ebgaramond text-xl'>Luneta Art Fair</span>
@@ -113,7 +113,7 @@ function Testimonies() {
                     </CardContent>
                 </Card>
                 <Card className="flex justify-center">
-                    <CardContent className="flex flex-col bg-[url('src/components/ui/assets/Dexter.png')] bg-cover aspect-square h-80 transition duration-300 transform hover:scale-105 rounded-xl p-0 ">
+                    <CardContent className="flex flex-col bg-[url('/src/components/ui/assets/Dexter.png')] bg-cover aspect-square h-80 transition duration-300 transform hover:scale-105 rounded-xl p-0 ">
                         <div className="flex flex-col justify-end h-full w-full">
                             <div className='px-6 py-2 bg-[#841E1C]/[.8] rounded-b-xl flex flex-col h-1/3 justify-center'>
                                 <span className='font-ebgaramond text-xl'>Meet Dexter Fernandez</span>
@@ -123,7 +123,7 @@ function Testimonies() {
                     </CardContent>
                 </Card>
                 <Card className="flex justify-center">
-                    <CardContent className="flex flex-col bg-[url('src/components/ui/assets/ArtInThePark.png')] bg-cover aspect-square h-80 transition duration-300 transform hover:scale-105 rounded-xl p-0">
+                    <CardContent className="flex flex-col bg-[url('/src/components/ui/assets/ArtInThePark.png')] bg-cover aspect-square h-80 transition duration-300 transform hover:scale-105 rounded-xl p-0">
                         <div className="flex flex-col justify-end h-full w-full">
                             <div className='px-6 py-2 bg-[#841E1C]/[.8] rounded-b-xl flex flex-col h-1/3 justify-center'>
                                 <span className='font-ebgaramond text-xl'>Art in the Park at Jaime Velasquez Park</span>

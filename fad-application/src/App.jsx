@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import vid from './components/ui/assets/ALUMNI.png'
+import vid from './components/ui/assets/FAD-VIDEO-COMPILATION_1.gif'
 import alumimg from './components/ui/assets/ALUMNI.png'
 import eventimg from './components/ui/assets/EVENT.png'
 import exhibitimg from './components/ui/assets/Exhibit.png'
@@ -28,9 +28,10 @@ function App() {
               <CardContent className="p-0 bg-cover flex items-left justify-left flex max-w-full w-full">
                 <div className='relative'>
                   <img src={vid}></img>
-                  <div className='text-white py-3 px-6 absolute left-0 bottom-0 flex flex-col space-y-1 font-ebgaramond w-3/5'>
+                  <div className='text-white py-3 px-6 absolute left-0 bottom-0 flex flex-col space-y-1 font-ebgaramond font-[500] w-3/5'>
                     <span className='text-2xs xl:text-3xl'>TECHNOLOGICAL UNIVERSITY OF THE PHILIPPINES - MANILA</span>
-                    <span className='text-lg xl:text-5xl'>FINE ARTS DEPARTMENT</span>
+                    <span className='text-lg xl:text-5xl '>FINE ARTS DEPARTMENT</span>
+                    <Button className="text-white bg-learnmore-btn rounded hover:bg-white w-1/4 font-roboto">Learn More</Button>
                   </div>
                 </div>
               </CardContent>
@@ -43,9 +44,10 @@ function App() {
               <CardContent className="p-0 bg-cover flex items-left justify-left flex">
                 <div className='relative'>
                   <img src={picture}></img>
-                  <div className='text-white py-3 px-6 absolute left-0 bottom-0 flex flex-col space-y-1 font-ebgaramond w-3/5'>
+                  <div className='text-white py-3 px-6 absolute left-0 bottom-0 flex flex-col space-y-1 font-ebgaramond font-[500] w-3/5'>
                     <span className='text-2xs xl:text-3xl'>FINE ARTS DEPARTMENT</span>
                     <span className='text-lg xl:text-5xl'>PLATES</span>
+                    <Button className="text-white bg-learnmore-btn rounded hover:bg-white w-1/4 font-roboto">Learn More</Button>
                   </div>
                 </div>
               </CardContent>
@@ -59,9 +61,10 @@ function App() {
               <CardContent className="p-0 bg-cover flex items-left justify-left flex">
                 <div className='relative'>
                   <img src={eventimg}></img>
-                  <div className='text-white py-3 px-6 absolute left-0 bottom-0 flex flex-col space-y-1 font-ebgaramond w-3/5'>
+                  <div className='text-white py-3 px-6 absolute left-0 bottom-0 flex flex-col space-y-1 font-ebgaramond font-[500] w-3/5'>
                     <span className='text-2xs xl:text-3xl'>FINE ARTS DEPARTMENT</span>
                     <span className='text-lg xl:text-5xl'>EVENTS</span>
+                    <Button className="text-white bg-learnmore-btn rounded hover:bg-white w-1/4 font-roboto">Learn More</Button>
                   </div>
                 </div>
               </CardContent>
@@ -74,9 +77,10 @@ function App() {
               <CardContent className="p-0 bg-cover flex items-left justify-left flex">
                 <div className='relative'>
                   <img src={exhibitimg}></img>
-                  <div className='text-white py-3 px-6 absolute left-0 bottom-0 flex flex-col space-y-1 font-ebgaramond w-3/5'>
+                  <div className='text-white py-3 px-6 absolute left-0 bottom-0 flex flex-col space-y-1 font-ebgaramond font-[500] w-3/5'>
                     <span className='text-2xs xl:text-3xl'>FINE ARTS DEPARTMENT</span>
                     <span className='text-lg xl:text-5xl'>EXHIBIT</span>
+                    <Button className="text-white bg-learnmore-btn rounded hover:bg-white w-1/4 font-roboto">Learn More</Button>
                   </div>
                 </div>
               </CardContent>
@@ -89,9 +93,10 @@ function App() {
               <CardContent className="p-0 bg-cover flex items-left justify-left flex">
                 <div className='relative'>
                   <img src={alumimg}></img>
-                  <div className='text-white py-3 px-6 absolute left-0 bottom-0 flex flex-col space-y-1 font-ebgaramond w-3/5'>
+                  <div className='text-white py-3 px-6 absolute left-0 bottom-0 flex flex-col space-y-1 font-ebgaramond font-[500] w-3/5'>
                     <span className='text-2xs xl:text-3xl'>FINE ARTS DEPARTMENT</span>
                     <span className='text-lg xl:text-5xl'>ALUMNI</span>
+                    <Button className="text-white bg-learnmore-btn rounded hover:bg-white w-1/4 font-roboto">Learn More</Button>
                   </div>
                 </div>
               </CardContent>
