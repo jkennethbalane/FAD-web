@@ -1,11 +1,9 @@
 import { useState } from 'react'
-import vid from './components/ui/assets/FAD-VIDEO-COMPILATION_1.gif'
+import vid from './components/ui/assets/ALUMNI.png'
 import alumimg from './components/ui/assets/ALUMNI.png'
 import eventimg from './components/ui/assets/EVENT.png'
 import exhibitimg from './components/ui/assets/Exhibit.png'
 import picture from './components/ui/assets/PLATE.png'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 import { Button } from "@/components/ui/button"
 import {

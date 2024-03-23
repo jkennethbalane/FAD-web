@@ -1,6 +1,4 @@
 import { useState } from 'react'
-import highlight1 from './assets/indayog.png'
-import highlight2 from './assets/testimonial2.png'
 import {
   Carousel,
   CarouselContent,
