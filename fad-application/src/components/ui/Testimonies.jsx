@@ -15,8 +15,8 @@ function Testimonies() {
     <>
         <div className='py-6 font-roboto font-[400] text-black'>
             <div className='text-center flex flex-col space-y-3 font-[500]'>
-                <span className="text-3xl text-testimonialTitle ">Testimonials</span>
-                <span className="text-3xl text-">We taught thousands of<br></br>amazing students</span>
+                <span className="xl:text-3xl text-xl text-testimonialTitle ">Testimonials</span>
+                <span className="xl:text-3xl text-xl">We taught thousands of<br></br>amazing students</span>
             </div>
             <Carousel className="w-full flex justify-center max-w-full px-6 py-6">
                 <CarouselContent>
@@ -88,8 +88,8 @@ function Testimonies() {
         </div>
         <div className='py-6 px-12 font-roboto text-white'>
             <div className='text-center flex flex-col space-y-3 text-black'>
-                <span className="text-3xl font-[500]">Highlights</span>
-                <span className="text-2xl font-[300]">LATEST NEWS AND EVENTS</span>
+                <span className="xl:text-3xl text-xl font-[500]">Highlights</span>
+                <span className="xl:text-3xl text-xs font-[300]">LATEST NEWS AND EVENTS</span>
             </div>
             <div className='flex xl:flex-row xl:space-y-0 space-y-6 py-6 justify-between flex-col'>
                 <Card className="flex justify-center ">
@@ -134,8 +134,8 @@ function Testimonies() {
                 </Card>
             </div>
             <div className='text-center flex flex-col space-y-0 py-6'>
-                <span className="text-xl text-testimonialTitle">Want to connect with us?</span>
-                <span className="text-2xl text-black">Visit our page for more.</span>
+                <span className="xl:text-3xl text-xs text-testimonialTitle">Want to connect with us?</span>
+                <span className="xl:text-3xl text-md text-black">Visit our page for more.</span>
             </div>
         </div>
     </>

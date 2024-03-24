@@ -14,13 +14,16 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel"
 import { Card, CardContent } from "@/components/ui/card"
+import * as React from "react"
+import Autoplay from "embla-carousel-autoplay"
 
 function App() {
-  const [count, setCount] = useState(0)
-
+  const plugin = React.useRef(
+    Autoplay({ delay: 5000, stopOnInteraction: true })
+  )
   return (
     <>
-      <Carousel className="w-full flex justify-center max-w-full">
+      <Carousel className="w-full flex justify-center max-w-full" plugin={(plugin)}>
         <CarouselContent>
           <CarouselItem key="0">
           <div>

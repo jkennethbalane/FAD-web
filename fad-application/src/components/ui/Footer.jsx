@@ -9,24 +9,28 @@ export default function Footer(){
         <>
             <div className="w-full h-80 xl:h-96 relative font-body font-[500]">
                 <img src={foot} className='w-full object-cover h-full'></img>
-                <div className='text-white py-3 px-6 absolute left-0 top-0 flex flex-col space-y-1'>
-                    <span className='text-4xl xl:text-5xl'>CONNECT<br/>WITH US</span>
-                    <div className='flex flex-row space-x-5'>
-                        <img src={facebook} className='transition duration-300 transform hover:scale-105'></img>
-                        <img src={instagram} className='transition duration-300 transform hover:scale-105'></img>
-                    </div>
-                    <div className='flex flex-col text-xs'>
-                        <span>TECHNOLOGICAL UNIVERSITY OF THE PHILIPPINES - MANILA</span>
-                        <span>Ayala Boulevard, Ermita, Manila, Philippines, 1000 </span>
-                    </div>
-                    <div className=''>
-                        <div className='flex flex-row items-center space-x-5'>
-                            <img src={mail} className='transition duration-300 transform hover:scale-105'></img>
-                            <span className='text-2xs'>tup_fineartsdepartment@tup.edu.ph</span>
+                <div className='text-white py-3 px-6 absolute left-0 top-0 flex flex-col space-y-10'>
+                    <div>
+                        <span className='text-4xl xl:text-5xl'>CONNECT<br/>WITH US</span>
+                        <div className='flex flex-row space-x-5'>
+                            <img src={facebook} className='transition duration-300 transform hover:scale-105'></img>
+                            <img src={instagram} className='transition duration-300 transform hover:scale-105'></img>
                         </div>
-                        <div className='flex flex-row items-center space-x-5'>
-                            <img src={phone} className='transition duration-300 transform hover:scale-105'></img>
-                            <span className='text-2xs'>09326587416</span>
+                    </div>
+                    <div>
+                        <div className='flex flex-col text-3xs'>
+                            <span>TECHNOLOGICAL UNIVERSITY OF THE PHILIPPINES - MANILA</span>
+                            <span>Ayala Boulevard, Ermita, Manila, Philippines, 1000 </span>
+                        </div>
+                        <div>
+                            <div className='flex flex-row items-center space-x-5'>
+                                <img src={mail} className='transition duration-300 transform hover:scale-105'></img>
+                                <span className='text-3xs'>tup_fineartsdepartment@tup.edu.ph</span>
+                            </div>
+                            <div className='flex flex-row items-center space-x-5'>
+                                <img src={phone} className='transition duration-300 transform hover:scale-105'></img>
+                                <span className='text-3xs'>09326587416</span>
+                            </div>
                         </div>
                     </div>
                 </div>
