@@ -31,11 +31,16 @@ export default function NavigationBar() {
           setIsOpen(false)
         }
       }
+      function swipeDown(event){
+        setIsOpen(false)
+      }
       // Bind the event listener
       document.addEventListener("mousedown", handleClickOutside);
+      document.addEventListener("touchmove", swipeDown);
       return () => {
         // Unbind the event listener on clean up
         document.removeEventListener("mousedown", handleClickOutside);
+        document.removeEventListener("touchmove", swipeDown);
       };
     }, [ref]);
   }
@@ -45,7 +50,7 @@ export default function NavigationBar() {
 
   return (
     <div>
-      <div className="top-0 px-12 py-4 bg-white flex-wrap z-[20] mx-auto flex w-full items-center justify-between xl:static fixed" id='navBar'>
+      <div className="top-0 px-12 py-4 bg-white flex-wrap z-[20] mx-auto flex w-full items-center justify-between" id='navBar'>
         <div className="logo w-2/3 xl:w-1/2 h-full">
             <img src={logo} ></img>
         </div>
