@@ -23,7 +23,7 @@ function App() {
   )
   return (
     <>
-      <Carousel className="w-full flex justify-center max-w-full" plugin={(plugin)}>
+      <Carousel className="w-full flex justify-center max-w-full h-96 xl:h-auto" plugin={(plugin)}>
         <CarouselContent>
           <CarouselItem key="0">
           <div>
@@ -45,7 +45,7 @@ function App() {
             <Card className="border-black">
               <CardContent className="p-0 bg-cover flex items-left justify-left flex">
                 <div className='relative'>
-                  <img src={picture}></img>
+                  <img src={picture} className=''></img>
                   <div className='text-white py-3 px-12 absolute left-0 bottom-0 flex flex-col space-y-1 font-ebgaramond font-[500] w-3/5'>
                     <span className='text-2xs xl:text-3xl'>FINE ARTS DEPARTMENT</span>
                     <span className='text-lg xl:text-5xl'>PLATES</span>
